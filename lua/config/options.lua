@@ -3,4 +3,4 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 -- 24 bit color
-vim.opt.termguicolor = true
+vim.opt.termguicolors = true

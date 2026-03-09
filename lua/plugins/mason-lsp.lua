@@ -5,7 +5,8 @@ return {
       "lua_ls",
       "rust_analyzer",
       "clangd",
-      "verible"
+      "verible",
+      "pyright"
     },
   },
   dependencies = {

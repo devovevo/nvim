@@ -2,7 +2,17 @@ return {
   'stevearc/oil.nvim',
   ---@module 'oil'
   ---@type oil.SetupOpts
-  opts = {},
+  opts = {
+    keymaps = {
+       -- Disable nav keys with Tmux
+      ["<C-h>"] = false,
+      ["<C-l>"] = false,
+
+      ["g."] = "actions.toggle_hidden",
+      ["R"] = "actions.refresh"
+    }
+  },
+
   keys = {
     { "-", "<cmd>Oil<cr>", desc = "Open parent dir" },
   },

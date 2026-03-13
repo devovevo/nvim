@@ -6,7 +6,8 @@ return {
       "rust_analyzer",
       "clangd",
       "verible",
-      "pyright"
+      "pyright",
+      "starpls"
     },
   },
   dependencies = {

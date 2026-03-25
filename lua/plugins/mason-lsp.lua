@@ -7,7 +7,9 @@ return {
       "clangd",
       "verible",
       "pyright",
-      "starpls"
+      "starpls",
+      "terraformls",
+      "yamlls"
     },
   },
   dependencies = {
